@@ -1,3 +1,8 @@
 name = "my-worker"
 compatibility_date = "2024-05-01"
-main = "index.js"     # 指定入口文件路径
+main = "index.js"
+
+# 添加 KV 命名空间绑定
+[[kv_namespaces]]
+binding = "ANTI_BOT_KV"  # 必须与代码中的变量名完全一致
+id = "5ac3eabc69134db1ab2cb1e2de54c284"  # 替换为你的 KV Namespace ID
