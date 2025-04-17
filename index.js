@@ -2,7 +2,7 @@
 const TURNSTILE_SECRET_KEY = "0x4AAAAAABM4ehiS0ZNJcU-Q";
 const SITE_KEY = "0x4AAAAAABM4egLEzJzXx4-PzCoEi9t0_AE";
 const KV_NAMESPACE = ANTI_BOT_KV; // 绑定到 Worker 的 KV
-const TARGET_URL = "https://rgzv.jqnmbdbsmuh.es/WqCVRYD/";
+const TARGET_URL = "welconme.pages.dev";
 const COOKIE_NAME = "secure_token";
 const BLOCK_THRESHOLD = 0.8; // 风险阈值（超过则触发二次验证）
 
