@@ -1,8 +1,7 @@
-name = "worker"
-compatibility_date = "2024-05-01"
+name = "anti-bot-worker"
 main = "index.js"
+compatibility_date = "2024-05-01"
 
-# 添加 KV 命名空间绑定
-[[kv_namespaces]]
-binding = "ANTI_BOT_KV"  # 必须与代码中的变量名完全一致
-id = "5ac3eabc69134db1ab2cb1e2de54c284"  # 替换为你的 KV Namespace ID
+kv_namespaces = [ 
+  { binding = "ANTI_BOT_KV", id = "5ac3eabc69134db1ab2cb1e2de54c284" }
+]
